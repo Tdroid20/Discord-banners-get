@@ -4,8 +4,8 @@ get the user's banners with just one command
 with just one command you can get the banners of users. just enter the command and pass the key 'banner' and vúala, now you will have the banner of the users
 
 <h1>in the desired command enter the following code</h1>
- const bannerHash = (await this.client.api.users[user.id].get()).banner;
 
+    const bannerHash = (await this.client.api.users[user.id].get()).banner;
     if (!bannerHash) message.channel.send(`o ${user} não possuí nenhuma banner😟`);
 
     const banner = `https://cdn.discordapp.com/banners/${
