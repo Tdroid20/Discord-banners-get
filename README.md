@@ -11,7 +11,7 @@ with just one command you can get the banners of users. just enter the command a
     const banner = `https://cdn.discordapp.com/banners/${
       user.id
     }/${bannerHash}${bannerHash.startsWith("a_") ? ".gif" : ".png"}?size=4096`;
-<h3>the code was provided by<a href="https://www.youtube.com/channel/UCz2V-73WjkV9N6Nwxef9HgA"> zSpl1nterUS_<a>and adapted with permission by:<a href="https>//highframe.tdroid20.repl.co">Tdroid20<a></h3>
+<h3>the code was provided by<a href="https://www.youtube.com/channel/UCz2V-73WjkV9N6Nwxef9HgA"> zSpl1nterUS_<a>and adapted with permission by:<a href="https://highframe.tdroid20.repl.co">Tdroid20<a></h3>
 
 <h1>supported languages</h1>
 <img alt="NodeJS" src="https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node.js&logoColor=white"/>
